@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuestro Álbum</title>
+<meta name="description" content="Un álbum de aniversario, página por página.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Caveat:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.4.0/color-thief.umd.js"></script>
+</head>
+<body>
+
+<div id="dynamic-background" aria-hidden="true"></div>
+
+<main class="album-container" id="main-card">
+
+  <header class="album-header">
+    <p class="eyebrow">Nuestro álbum</p>
+    <h1 class="couple-names">Edita esto con sus nombres</h1>
+  </header>
+
+  <section class="album-page">
+
+    <figure class="photo-section">
+      <img id="album-photo" src="" alt="" crossorigin="anonymous">
+    </figure>
+
+    <blockquote class="letter-section">
+      <p id="album-letter"></p>
+      <footer class="letter-date" id="album-date"></footer>
+    </blockquote>
+
+    <div class="music-section">
+      <p class="music-label" id="track-label">Reproduciendo</p>
+      <div class="embed-wrap" id="embed-wrap"></div>
+    </div>
+
+    <nav class="navigation" aria-label="Navegación del álbum">
+      <button id="prev-btn" class="nav-btn" type="button" aria-label="Página anterior">←</button>
+      <span id="page-indicator" class="page-indicator">Página 1 de X</span>
+      <button id="next-btn" class="nav-btn" type="button" aria-label="Página siguiente">→</button>
+    </nav>
+
+  </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
