@@ -17,7 +17,7 @@
    ----------------------------------------------------- */
 const albumData = [
   {
-    photo: "img/foto1.jpg",
+    photo: "img/IMG_20250114_153927.jpg",
     letter: "Nuestra primera foto juntos...",
     date: "Marzo 2021",
     bpm: 92,
